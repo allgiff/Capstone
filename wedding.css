@@ -1,0 +1,169 @@
+/*Global styles*/
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,600;6..96,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+html, body {
+    background-color: #FFFDFA;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+/*navbar*/
+nav {
+    position: relative;
+    margin: auto;
+    width: 350px;
+    height: 75px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: none;
+}
+
+.active {
+    border-bottom: 3px solid #48656F;
+}
+
+/*fonts*/
+h1 {
+    font-family: 'Alice', serif;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+h2, h3 {
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p, li {
+    font-family: 'Quicksand', sans-serif;
+}
+
+hr {
+    width: 50%;
+    text-align: center;
+}
+
+/*footer*/ 
+footer {
+    background-color: #48656F;
+    padding: 10px;
+    width: 100%;
+    color: white;
+}
+
+/*page stylings*/
+
+main {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-padd {
+    padding: 50px 0px 50px 0px;
+}
+
+.colored-back {
+    background-color: #80958B;
+    color: white;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-img {
+    width: 50%;
+}
+
+#us {
+    padding-top: 100px;
+    width: 500px;
+    height: 300px;
+    background-color: #B2C1CE;
+    margin: 0 auto;
+}
+
+.white-button {
+    color: #FFFDFA;
+    background-color: #80958B;
+    border: 3px solid #FFFDFA;
+    text-decoration: none;
+    font-size: 1.25em;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.white-button:hover {
+    color: #B2C1CE;
+    border: 3px solid #B2C1CE;
+}
+
+/*parallax effect*/
+
+.para {
+    /* The image used */
+    background-image: url("Assets/holding-hands.jpg");
+  
+    /* Full height */
+    min-height: 400px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*turn off parallax effect for mobile*/
+  @media only screen and (max-device-width: 1366px) {
+    .para {
+      background-attachment: scroll;
+    }
+  }
+
+  /*countdown*/ 
+
+  #countdown li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  #countdown li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+
+  .count-container {
+    padding: 50px 0px 75px 0px;
+  }
+
+  .count-container h1 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
