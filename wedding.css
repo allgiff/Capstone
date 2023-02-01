@@ -79,7 +79,7 @@ main {
 }
 
 .section-padd {
-    padding: 50px 0px 50px 0px;
+    padding: 100px 0px 100px 0px;
 }
 
 .colored-back {
@@ -87,9 +87,22 @@ main {
     color: white;
 }
 
+.colored-back-2 {
+    background-color: #B2C1CE;
+    color: black;
+}
+
 img {
-    width: 100%;
     height: auto;
+}
+
+.img-right {
+    margin-left: 30%;
+}
+
+.text-left {
+    text-align: left;
+    padding-left: 25%;
 }
 
 .gallery-img {
@@ -121,14 +134,28 @@ img {
     border: 3px solid #B2C1CE;
 }
 
+a {
+    color: #366754;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
 /*parallax effect*/
+
+.para-home {
+    background-image: url("Assets/holding-hands.jpg");
+}
+
+.para-reg {
+    background-image: url("Assets/wedding.jpg");
+}
 
 .para {
     /* The image used */
-    background-image: url("Assets/holding-hands.jpg");
   
     /* Full height */
     min-height: 400px;
+    width: 100%;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -166,4 +193,36 @@ img {
   .count-container h1 {
     padding-bottom: 0px;
     margin-bottom: 0px;
+  }
+
+
+  /*Registry page*/
+  
+  .reg-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .logo-1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .logo-2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .logo-3 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 75%;
+    margin: 0 auto;
   }
