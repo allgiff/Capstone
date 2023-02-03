@@ -55,6 +55,11 @@ h2, h3 {
     font-family: 'Quicksand', sans-serif;
 }
 
+h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
 p, li {
     font-family: 'Quicksand', sans-serif;
 }
@@ -124,18 +129,37 @@ img {
 .white-button {
     color: #FFFDFA;
     background-color: #80958B;
-    border: 3px solid #FFFDFA;
+    border: 2px solid #FFFDFA;
     text-decoration: none;
     font-size: 1.25em;
     padding: 10px 20px 10px 20px;
     margin-top: 50px;
     border-radius: 5px;
     cursor: pointer;
+    width: 150px;
 }
 
 .white-button:hover {
     color: #B2C1CE;
-    border: 3px solid #B2C1CE;
+    border: 2px solid #B2C1CE;
+}
+
+.blue-button {
+    color: #48656F;
+    background-color: #FFFDFA;
+    border: 2px solid #48656F;
+    text-decoration: none;
+    font-size: 1.25em;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.blue-button:hover {
+    color: #B2C1CE;
+    border: 2px solid #B2C1CE;
 }
 
 a {
@@ -152,6 +176,10 @@ a {
 
 .para-reg {
     background-image: url("Assets/wedding.jpg");
+}
+
+.para-rsvp {
+    background-image: url("Assets/para-rsvp.jpg");
 }
 
 .para {
@@ -229,4 +257,32 @@ a {
     grid-row: 2/3;
     width: 75%;
     margin: 0 auto;
+  }
+
+  /*RSVP Page*/
+  .img-text-left {
+    display: grid;
+  padding: 2rem;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 0px 100px 0px;
+  }
+
+  .img-text-left img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .img-text-right {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 1fr 300px;
+    gap: 1rem;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 0px 200px 0px;
   }
