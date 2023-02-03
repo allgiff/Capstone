@@ -264,7 +264,7 @@ a {
     display: grid;
   padding: 2rem;
   grid-template-columns: 300px 1fr;
-  gap: 1rem;
+  gap: 50px;
   align-items: center;
   max-width: 800px;
   margin: 0 auto;
@@ -280,7 +280,7 @@ a {
     display: grid;
     padding: 2rem;
     grid-template-columns: 1fr 300px;
-    gap: 1rem;
+    gap: 50px;
     align-items: center;
     max-width: 800px;
     margin: 0 auto;
