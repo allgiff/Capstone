@@ -84,6 +84,9 @@ footer {
 
 main {
     margin: 0 auto;
+}
+
+.centered {
     text-align: center;
 }
 
@@ -144,6 +147,10 @@ img {
     border: 2px solid #B2C1CE;
 }
 
+.white-link {
+    color: #FFFDFA;
+}
+
 .blue-button {
     color: #48656F;
     background-color: #FFFDFA;
@@ -180,6 +187,10 @@ a {
 
 .para-rsvp {
     background-image: url("Assets/para-rsvp.jpg");
+}
+
+.para-sched {
+    background-image: url("Assets/rings.jpg");
 }
 
 .para {
@@ -286,3 +297,49 @@ a {
     margin: 0 auto;
     padding: 50px 0px 200px 0px;
   }
+
+  .sect-padd-bottom {
+    padding-bottom: 150px;
+  }
+
+  .form-sect {
+    display:flex;
+    justify-content: center;
+  }
+
+  #right {
+    float: right;
+    margin-left: 10px;
+  }
+    
+    #left {
+    float: left; 
+    margin-right: 10px;
+  }
+
+  form input, form select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  form label {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  form {
+    background-color: #80958B;
+    padding: 100px 50px 100px 50px;
+  }
+
+  form label {
+    color: white;
+  }
+
+  .form-button {
+    text-align: center;
+  }
+
