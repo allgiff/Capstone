@@ -207,6 +207,15 @@ a {
     background-size: cover;
   }
 
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+
   /*turn off parallax effect for mobile*/
   @media only screen and (max-device-width: 1366px) {
     .para {
