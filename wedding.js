@@ -12,15 +12,15 @@
         yyyy = today.getFullYear(),
         nextYear = yyyy + 1,
         dayMonth = "05/26/",
-        birthday = dayMonth + yyyy;
+        wedding = dayMonth + yyyy;
     
     today = mm + "/" + dd + "/" + yyyy;
-    if (today > birthday) {
-      birthday = dayMonth + nextYear;
+    if (today > wedding) {
+      wedding = dayMonth + nextYear;
     }
     //end
     
-    const countDown = new Date(birthday).getTime(),
+    const countDown = new Date(wedding).getTime(),
         x = setInterval(function() {    
   
           const now = new Date().getTime(),
