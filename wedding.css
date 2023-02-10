@@ -68,6 +68,8 @@ p, li {
 hr {
     width: 50%;
     text-align: center;
+    border: solid 1px white;
+    border-radius: 30px;
 }
 
 /*footer*/ 
@@ -205,6 +207,20 @@ a {
     background-image: url("Assets/rings.jpg");
 }
 
+.para-us {
+    background-image: url("Assets/us-ocean.JPG");
+        /* Full height */
+        min-height: 400px;
+        width: 100%;
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(.6);
+}
+
 .para {
     /* Full height */
     min-height: 400px;
@@ -246,6 +262,16 @@ a {
     position: absolute;
     left: 0;
     top: 65%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    filter: brightness(1.0);
+  }
+
+  .caption-us {
+    position: absolute;
+    left: 0;
+    margin-top: -275px;
     width: 100%;
     text-align: center;
     color: white;
