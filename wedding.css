@@ -229,7 +229,7 @@ a {
         background-repeat: no-repeat;
         background-size: cover;
         background-color: #000;
-        filter: brightness(.5);
+        filter: brightness(.4);
   }
 
   .caption {
