@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,600;6..96,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
 html, body {
     background-color: #FFFDFA;
@@ -46,7 +47,7 @@ nav li a {
 /*fonts*/
 h1 {
     font-family: 'Alice', serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 3em;
 }
 
@@ -73,7 +74,6 @@ hr {
 footer {
     background-color: #48656F;
     padding: 10px;
-    width: 100%;
     color: white;
     padding: 10px;
     padding-left: 15%;
@@ -142,6 +142,18 @@ img {
     width: 150px;
 }
 
+.trans-button {
+    color: #FFFDFA;
+    background-color: transparent;
+    border: 2px solid #FFFDFA;
+    text-decoration: none;
+    font-size: 1.25em;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+}
+
 .white-button:hover {
     color: #B2C1CE;
     border: 2px solid #B2C1CE;
@@ -178,7 +190,7 @@ a {
 /*parallax effect*/
 
 .para-home {
-    background-image: url("Assets/holding-hands.jpg");
+    background-image: url("Assets/us.JPG");
 }
 
 .para-reg {
@@ -194,8 +206,6 @@ a {
 }
 
 .para {
-    /* The image used */
-  
     /* Full height */
     min-height: 400px;
     width: 100%;
@@ -205,6 +215,21 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: brightness(.8);
+  }
+
+  .para-tall {
+        /* Full height */
+        min-height: 600px;
+        width: 100%;
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #000;
+        filter: brightness(.5);
   }
 
   .caption {
@@ -214,6 +239,17 @@ a {
     width: 100%;
     text-align: center;
     color: white;
+    filter: brightness(1.0);
+  }
+
+  .caption-tall {
+    position: absolute;
+    left: 0;
+    top: 65%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    filter: brightness(1.0);
   }
 
   /*turn off parallax effect for mobile*/
