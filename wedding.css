@@ -404,6 +404,7 @@ a {
   form {
     background-color: #80958B;
     padding: 100px 50px 100px 50px;
+    border-radius: 15px;
   }
 
   form label {
@@ -417,4 +418,5 @@ a {
   #home-title {
     font-size: 4em;
   }
+
 
