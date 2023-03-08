@@ -221,7 +221,7 @@ a {
 }
 
 .para-rsvp {
-    background-image: url("Assets/proposal.PNG");
+    background-image: url("Assets/holding-hands.jpg");
 }
 
 .para-sched {
@@ -252,7 +252,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(.8);
+    filter: brightness(.9);
   }
 
   .para-tall {
