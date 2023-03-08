@@ -300,6 +300,12 @@ a {
   }
 
   /*turn off parallax effect for mobile*/
+@media only screen and (min-width: 3000px) {
+    .caption-tall {
+        top: 30%;
+    }
+}
+
   @media only screen and (max-device-width: 1366px) {
     .para {
       background-attachment: scroll;
