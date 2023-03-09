@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
 html, body {
-    background-color: #fffefa;
+    background-color: white;
     padding: 0;
     margin: 0;
     height: 100%;
@@ -14,6 +14,7 @@ html, body {
 .margin-top-reset {
     margin-top: 0;
 }
+
 
 /*navbar*/
 nav {
@@ -45,15 +46,21 @@ nav li a {
     font-size: 16px;
 }
 
+.nav-back {
+    background-color: #f7f7f7;
+}
+
 .active {
     border-bottom: 3px solid #48656F;
 }
+
 
 /*fonts*/
 h1 {
     font-family: 'Alice', serif;
     font-weight: 500;
     font-size: 3em;
+    color: #48656F;
 }
 
 h2, h3 {
@@ -69,6 +76,7 @@ h4 {
 p, li {
     font-size: 18px;
     font-family: 'Quicksand', sans-serif;
+    color: #48656F;
 }
 
 hr {
@@ -77,6 +85,7 @@ hr {
     border: solid 1px white;
     border-radius: 30px;
 }
+
 
 /* colors */ 
 .light-blue {
@@ -87,18 +96,28 @@ hr {
     color: #48656F;
 }
 
+.white {
+    color: white;
+}
+
+.back-white {
+    background-color: white;
+}
+
+
 /*footer*/ 
 footer {
     background-color: #48656F;
     padding: 10px;
-    color: white;
-    padding: 10px;
-    padding-left: 15%;
     height: 100px;
 }
 
-/*page stylings*/
+footer p {
+    color: white;
+}
 
+
+/*page stylings*/
 main {
     margin: 0 auto;
 }
@@ -210,8 +229,15 @@ a {
     font-family: 'Quicksand', sans-serif;
 }
 
-/*parallax effect*/
+.centered-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
 
+
+/*parallax effect*/
 .para-home {
     background-image: url("Assets/us.JPG");
 }
@@ -262,7 +288,7 @@ a {
       
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
-        background-position: center;
+        background-position: 50% 0%;
         background-repeat: no-repeat;
         background-size: cover;
         background-color: #000;
@@ -272,7 +298,7 @@ a {
   .caption {
     position: absolute;
     left: 0;
-    top: 35%;
+    top: 65%;
     width: 100%;
     text-align: center;
     color: white;
@@ -282,7 +308,7 @@ a {
   .caption-tall {
     position: absolute;
     left: 0;
-    top: 60%;
+    top: 80%;
     width: 100%;
     text-align: center;
     color: white;
@@ -351,6 +377,7 @@ a {
     list-style-type: none;
     padding: 1em;
     text-transform: uppercase;
+    color: #48656F;
   }
   
   #countdown li span {
