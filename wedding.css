@@ -18,9 +18,10 @@ html, body {
 /*navbar*/
 nav {
     position: relative;
-    margin: auto;
+    margin: 0 auto;
     width: 400px;
     height: 100px;
+    padding-left: 3%;
 }
 
 nav ul {
