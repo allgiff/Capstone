@@ -67,11 +67,13 @@ h1 {
 h2, h3 {
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
+    color: #3f5f6a
 }
 
 h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    color: #3f5f6a
 }
 
 p, li {
@@ -475,6 +477,7 @@ a {
     background-color: #80958B;
     padding: 100px 50px 100px 50px;
     border-radius: 15px;
+    width: 27%;
   }
 
   form label {
