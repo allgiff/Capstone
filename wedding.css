@@ -104,6 +104,9 @@ hr {
     background-color: white;
 }
 
+.back-gray {
+    background-color: #f7f7f7;
+}
 
 /*footer*/ 
 footer {
@@ -234,6 +237,11 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 35%;
+}
+
+.section-padd-small {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
