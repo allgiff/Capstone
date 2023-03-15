@@ -250,23 +250,23 @@ a {
 
 /*parallax effect*/
 .para-home {
-    background-image: url("Assets/us.JPG");
+    background-image: url("Assets/snowy(1).jpg");
 }
 
 .para-reg {
-    background-image: url("Assets/para-rsvp.jpg");
+    background-image: url("Assets/shoulders 2.png");
 }
 
 .para-rsvp {
-    background-image: url("Assets/holding-hands.jpg");
+    background-image: url("Assets/spin.png");
 }
 
 .para-sched {
-    background-image: url("Assets/rings.jpg");
+    background-image: url("Assets/our rings.png");
 }
 
 .para-us {
-    background-image: url("Assets/us-ocean.JPG");
+    background-image: url("Assets/hold.jpg");
         /* Full height */
         min-height: 400px;
         width: 100%;
