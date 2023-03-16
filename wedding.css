@@ -428,6 +428,10 @@ a {
       .lastname, .lastname input {
         margin-left: -10px;
       }
+
+    #countdown ul {
+        padding-left: 0px;
+    }
   }
 
   /*countdown*/ 
