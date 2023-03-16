@@ -421,6 +421,13 @@ a {
       header .centered-img {
         width: 100% !important;
       }
+      #right, #left {
+        float: none !important;
+        width: 100% !important;
+      }
+      .lastname, .lastname input {
+        margin-left: -10px;
+      }
   }
 
   /*countdown*/ 
@@ -475,11 +482,13 @@ a {
   #right {
     float: right;
     margin-left: 10px;
+    width: 48%
   }
     
     #left {
     float: left; 
     margin-right: 10px;
+    width: 48%
   }
 
   form input, form select {
@@ -499,7 +508,7 @@ a {
     background-color: #80958B;
     padding: 100px 50px 100px 50px;
     border-radius: 15px;
-    width: 27%;
+    width: 55%;
   }
 
   form label {
