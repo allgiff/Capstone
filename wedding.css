@@ -436,6 +436,10 @@ a {
     .para-home {
         background-image: url("Assets/walking-mobile.jpg");
     }
+
+    .para-us {
+        background-image: url("Assets/kiss-mobile.jpg"); 
+    }
   }
 
   /*countdown*/ 
