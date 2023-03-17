@@ -428,6 +428,10 @@ a {
         padding-left: 0px;
     }
 
+    .para-tall, .para-us  {
+        background-attachment: scroll;
+    }
+
     }
 
     .mobile-text-pad {
