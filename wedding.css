@@ -434,11 +434,11 @@ a {
     }
 
     .para-home {
-        background-image: url("Assets/walking-mobile.jpg");
+        background-image: url("Assets/walking-mobile.jpg") !important;
     }
 
     .para-us {
-        background-image: url("Assets/kiss-mobile.jpg"); 
+        background-image: url("Assets/kiss-mobile-2.jpg") !important; 
     }
   }
 
