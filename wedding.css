@@ -432,6 +432,10 @@ a {
     #countdown ul {
         padding-left: 0px;
     }
+
+    .para-home {
+        background-image: url("Assets/walking-mobile.jpg");
+    }
   }
 
   /*countdown*/ 
