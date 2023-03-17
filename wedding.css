@@ -267,16 +267,7 @@ a {
 
 .para-us {
     background-image: url("Assets/kiss.jpg");
-        /* Full height */
-        min-height: 400px;
-        width: 100%;
-      
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        filter: brightness(.8);
+    filter: brightness(.8);
 }
 
 .para {
