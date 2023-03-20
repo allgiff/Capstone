@@ -471,6 +471,7 @@ a {
 
   .logo-1, .logo-2, .logo-3 {
     width: 100%;
+    cursor: pointer;
   }
 
   /*RSVP Page*/
